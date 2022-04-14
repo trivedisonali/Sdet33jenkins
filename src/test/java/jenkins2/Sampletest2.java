@@ -9,6 +9,8 @@ public class Sampletest2 {
 		@Test
 		public void myfirstTest() {
 			Reporter.log("i'm  not happy today",true);
+			Reporter.log("i'm  not happy today",true);
+		}
 		}
 
 	}
