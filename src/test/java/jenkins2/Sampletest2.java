@@ -8,13 +8,16 @@ public class Sampletest2 {
 		
 		@Test
 		public void myfirstTest() {
+			
+		String BROWSER = System.getProperty("BROWSER");
+		String URL= System.getProperty("URL");
+System.out.println(BROWSER);
+System.out.println(URL);
 
 			Reporter.log("i'm happy today",true);
 
-			Reporter.log("i'm  not happy today",true);
-			Reporter.log("i'm  not happy today",true);
+			
 		}
-
-		}
+}
 
 
