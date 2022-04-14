@@ -11,7 +11,7 @@ public class Sampletest2 {
 			Reporter.log("i'm  not happy today",true);
 		}
 
-	}
+	
 
 }
 
